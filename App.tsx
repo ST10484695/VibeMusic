@@ -71,12 +71,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: '#8FC1B5',
     padding: 8,
   }, 
   buttonStart
   : {
-    backgroundColor: '#B06DF2',
+    backgroundColor: '#146551',
     width:65,
     height:65,
     borderRadius: 100,
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     
   },
    buttonSkip: {
-    backgroundColor: '#8D92F2',
+    backgroundColor: '#146551',
     width:45,
     height:45,
     borderRadius: 100, 
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     padding:16,
   },
    buttonPause: {
-    backgroundColor: '#8D92F2',
+    backgroundColor: '#146551',
     width:45,
     height:45,
     borderRadius: 100, 
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row', 
   },
   buttonRepeat:{
-backgroundColor: '#f194ff',
+backgroundColor: '#146551',
     width:45,
     height:45,
     borderRadius: 100, 
@@ -132,19 +132,16 @@ backgroundColor: '#f194ff',
    
 
   },
-  player:{
-    flexDirection: 'row',
-     justifyContent: 'space-between',
-    
-  },
   songName:{
     fontSize:25,
     margin:5,
+    color:'#265C4B',
 
   },
   artist:{
     fontSize:20,
     margin:5,
+    color:'#265C4B',
 
   },
   image:{
